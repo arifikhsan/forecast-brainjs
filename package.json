@@ -1,11 +1,16 @@
 {
   "name": "forecast-brainjs",
   "version": "1.0.0",
+  "type": "module",
   "description": "Forecasting application",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arif Ikhsanudin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.2"
+  }
 }
